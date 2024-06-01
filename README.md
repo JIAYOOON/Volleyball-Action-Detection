@@ -30,9 +30,10 @@
 <br>
 
 ## 결과 분석
-<img width="297" alt="image" src="https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/ba2203b1-865b-4ab8-8af4-8d5b31577853"> <img width="299" alt="image" src="https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/829537ef-bcc0-432e-b9b2-35c6ec4036df">
+<img width="297" alt="image" src="https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/ba2203b1-865b-4ab8-8af4-8d5b31577853"> [Serve 감지]  
+<img width="299" alt="image" src="https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/829537ef-bcc0-432e-b9b2-35c6ec4036df">  [Spike 감지]
 <br>
-[Serve 감지]                       [Spike 감지]
+
 
 ![volleyball](https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/41cf86ec-db8c-4e0a-8623-6a3700103822) 
 <br>
