@@ -1,7 +1,5 @@
 # Volleyball Action Detection
 
-배구 경기에서 플레이어의 액션을 감지하고 식별하는 모델을 구축하는 것을 목표로 합니다. 
-
 <br>
 
 - Serve, Spike, Block과 같은 주요 액션을 식별합니다.
