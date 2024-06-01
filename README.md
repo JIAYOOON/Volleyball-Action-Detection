@@ -13,8 +13,7 @@
 
 ## 파일 구성
 
-1. **data.py** : 데이터 전처리 및 데이터셋 생성 - train 및 validation 데이터를 준비하는 스크립트입니다. 배구 경기를 촬영한 동영상 또는 이미지 데이터를 수집한.
-데이터는 액션(서브, 스파이크, 블록)을 포함한다.
+1. **data.py** : 데이터 전처리 및 데이터셋 생성 - 배구 경기를 촬영한 동영상 또는 이미지 데이터를 수집한다. 데이터는 액션(서브, 스파이크, 블록)을 포함한다.
 2. **train_model.py** : 모델 학습 - 학습 데이터를 사용하여 CNN 모델을 학습시킨다.
 4. **Action_Detection.py** : 액션 감지 및 텍스트 표시 - 학습된 모델을 사용하여 실시간 비디오 스트림에서 액션을 감지하고 텍스트로 표시한다.
 
@@ -31,13 +30,17 @@
 <br>
 
 ## 결과 분석
+<img width="297" alt="image" src="https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/ba2203b1-865b-4ab8-8af4-8d5b31577853"> <img width="299" alt="image" src="https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/829537ef-bcc0-432e-b9b2-35c6ec4036df">
+<br>
+[Serve 감지]   [Spike 감지]
+
 ![volleyball](https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/41cf86ec-db8c-4e0a-8623-6a3700103822) 
 <br>
 [spike, block 감지]
 
-* 스파이크와 블로킹, 두 액션은 종종 동시에 발생하여 구분하기 어려운 경우가 있어, 모델이 둘 중 하나만 감지하는 경우가 있습니다.
+* 스파이크와 블로킹, 두 액션은 종종 동시에 발생하여 구분하기 어려운 경우가 있어, 모델이 둘 중 하나만 감지하는 경우가 있다.
 
-* 연속 프레임 간의 차이가 너무 작을 경우, 모델이 액션을 감지하지 못하는 경우가 있습니다.
+* 연속 프레임 간의 차이가 너무 작을 경우, 모델이 액션을 감지하지 못하는 경우가 있다.
 
 * 서브와 스파이크 액션 자세가 비슷한 경우가 있어 둘의 구분 능력이 떨어진다.
 
