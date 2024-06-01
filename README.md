@@ -23,7 +23,7 @@
 ## 사용법
 
 1. **dataset 준비** : 데이터셋을 학습(train) 및 검증(validation) 디렉터리로 구성하고 각 행동(Serve, Spike, Block)에 대해 하위 디렉터리를 만듭니다.
-2. **데이 전처리** : `data.py`를 실행하여 데이터셋을 전처리 및 증강합니다.
+2. **데이터 전처리** : `data.py`를 실행하여 데이터셋을 전처리 및 증강합니다.
 3. **모델 학습** : `train_model.py`를 실행하여 CNN 모델을 학습시킵니다. 학습된 모델은 `volleyball_action_detection_model.h5` 파일로 저장됩니다.
 4. **액션 감지** : `Action_Detection.py`를 실행하여 동영상에서 액션을 감지하고 주석을 추가합니다.
 
