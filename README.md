@@ -49,7 +49,7 @@
 
 ![volleyball](https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/41cf86ec-db8c-4e0a-8623-6a3700103822) 
 <br>
-[spike, block 감지]
+[Spike, Block 감지]
 <br>
 * 스파이크와 블로킹, 두 액션은 종종 동시에 발생하여 구분하기 어려운 경우가 있어, 모델이 둘 중 하나만 감지하는 경우가 있다.
 
