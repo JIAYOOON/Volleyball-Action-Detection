@@ -33,17 +33,17 @@
 <img width="297" alt="image" src="https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/ba2203b1-865b-4ab8-8af4-8d5b31577853"> 
 <br>
 [Serve 감지]  
-<br>
+<br> <br>
 <img width="299" alt="image" src="https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/829537ef-bcc0-432e-b9b2-35c6ec4036df"> 
 <br>
 [Spike 감지]
-<br>
+<br> <br>
 
 
 ![volleyball](https://github.com/JIAYOOON/Volleyball-Action-Detection/assets/113532368/41cf86ec-db8c-4e0a-8623-6a3700103822) 
 <br>
 [spike, block 감지]
-
+<br>
 * 스파이크와 블로킹, 두 액션은 종종 동시에 발생하여 구분하기 어려운 경우가 있어, 모델이 둘 중 하나만 감지하는 경우가 있다.
 
 * 연속 프레임 간의 차이가 너무 작을 경우, 모델이 액션을 감지하지 못하는 경우가 있다.
