@@ -26,5 +26,9 @@
 3. 학습된 모델을 `volleyball_action_detection_model.h5` 파일로 저장합니다.
 4. **액션 감지**: `Action_Detection.py` 스크립트를 실행하여 실시간 비디오 스트림에서 액션을 감지하고 텍스트로 표시합니다.
 
+<br>
 
+## 참고 
+
+[ChatGPT](https://chat.openai.com/) 
 
